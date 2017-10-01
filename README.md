@@ -5,16 +5,15 @@ This method retrieves the Name of any Account or UserID. You can get the User Fu
 
 HTTP Method: GET
 
-Resource Url
+# Resource Url
 
 https://cofred.com/secure/api/v1/nameenquiry
 
-Headers
+# Headers
 
 See our Guide for how to setup Header https://github.com/cofred/Header-Authentication
 
-Authentication Headers
-
+# Authentication Headers
 
 merchant_id: VFdCMTY3WURPZUpJdkNnVWJWRXE=   // Base64 Encoded
 
@@ -28,8 +27,7 @@ timestamp: 1505628722
 
 "user_id: 1262846" or "account_number: 1504180785"
 
-
-Request Parameters
+# Request Parameters
 
 Field	M/O	Length	Format	Description
 
@@ -37,12 +35,11 @@ UserID	M	6	Numeric	UserID to get Name
 
 Account Number	M	10	Numeric	Account Number to get Name
 
-
-GetName Response
+# GetName Response
 
 A HTTP response code 200 is sent back for a success
 
-Response Parameters
+# Response Parameters
 
 Field	Description
 
@@ -50,8 +47,7 @@ responseCode	Response Code
 
 responseMessage	Response Message which will return Full Name
 
-
-Sample Response
+# Sample Response
 
 200
 
@@ -60,6 +56,6 @@ Sample Response
    "responseMessage":"Om Bharti"
 }
 
-Communication
+# Communication
 
 Requests will be sent over the REST protocol
