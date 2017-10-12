@@ -1,7 +1,7 @@
 # Name-Enquiry
 Guide for Name Enquiry API
 
-This method retrieves the Name of any Account or UserID. You can get the User Full Name using Account Number or UserID with respective parameters.
+This method retrieves the Name of any UserID. You can get the User Full Name using UserID with respective parameters.
 
 HTTP Method: GET
 
@@ -31,9 +31,7 @@ timestamp: 1505628722
 
 Field	M/O	Length	Format	Description
 
-UserID	M	6	Numeric	UserID to get Name
-
-Account Number	M	10	Numeric	Account Number to get Name
+UserID	M	7	Numeric	UserID to get Name
 
 # GetName Response
 
