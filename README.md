@@ -25,7 +25,7 @@ access_token: dUp4dEtybVg0UmpmMEFT  // Base64 Encoded
 
 timestamp: 1505628722
 
-"user_id: 1262846" or "account_number: 1504180785"
+"user_id: 1262846"
 
 # Request Parameters
 
