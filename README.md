@@ -7,7 +7,7 @@ HTTP Method: GET
 
 # Resource Url
 
-https://cofred.com/secure/api/v1/nameenquiry
+https://cofredpayaccess.com/api/v1/nameenquiry
 
 # Headers
 
